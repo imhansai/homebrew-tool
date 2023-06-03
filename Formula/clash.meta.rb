@@ -19,7 +19,7 @@ class ClashMeta < Formula
   end
 
   service do
-    run [opt_bin/"clash.meta", "-d", etc/"clash.meta",]
+    run [opt_bin/"clash.meta", "-d", etc/"clash.meta"]
     keep_alive true
     error_log_path var/"log/clash.meta.log"
     log_path var/"log/clash.meta.log"
