@@ -1,8 +1,8 @@
 class ClashMeta < Formula
   desc "Rule-based tunnel in Go"
   homepage "https://wiki.metacubex.one"
-  url "https://github.com/MetaCubeX/Clash.Meta/archive/refs/tags/v1.14.4.tar.gz"
-  sha256 "124c3da2166c0f8318ee1e6d182de8236127ff14493deb041539753b541cfa96"
+  url "https://github.com/MetaCubeX/Clash.Meta/archive/refs/tags/v1.14.5.tar.gz"
+  sha256 "4de850444199a406bd9e8de8e695fc273395392caa817b4f943c6d92368b5619"
   license "GPL-3.0-only"
 
   depends_on "go" => :build
