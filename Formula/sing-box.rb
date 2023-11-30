@@ -9,8 +9,10 @@ class SingBox < Formula
   depends_on "go" => :build
 
   def install
-    system "make", "build"
-    bin.install "sing-box"
+    ldflags = "-s -w -X github.com/sagernet/sing-box/constant.Version=#{version} -buildid="
+    tags = "with_gvisor,with_dhcp,with_wireguard,with_utls,with_reality_server,with_clash_api,with_quic,with_ech"
+    system "go", "build", "-tags", tags, *std_go_args(ldflags: ldflags), "./cmd/sing-box"
+    generate_completions_from_executable(bin/"sing-box", "completion")
   end
 
   def post_install
