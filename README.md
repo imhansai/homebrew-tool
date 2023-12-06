@@ -12,6 +12,5 @@ Or `brew tap imhansai/proxy` and then `brew install <formula>`.
 
 ## Credits
 
-- [Clash.Meta](https://github.com/MetaCubeX/Clash.Meta)
-- [SagerNet/sing-box](https://github.com/SagerNet/sing-box)
+- [mihomo](https://github.com/MetaCubeX/mihomo)
 - [Homebrew](https://docs.brew.sh/Formula-Cookbook)
