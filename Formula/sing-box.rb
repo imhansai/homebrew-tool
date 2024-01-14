@@ -2,8 +2,8 @@ class SingBox < Formula
   desc "Universal proxy platform"
   homepage "https://sing-box.sagernet.org"
   # using `:homebrew_curl` to work around audit failure from TLS 1.3-only homepage
-  url "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.8.0.tar.gz", using: :homebrew_curl
-  sha256 "80ae2a860fc77d961c578999e5fcfe964f969c81d9ccac156b2fef1340eca12f"
+  url "https://github.com/SagerNet/sing-box/archive/refs/tags/v1.8.1.tar.gz", using: :homebrew_curl
+  sha256 "6ea56eb52c2168f3d5ac98ab1bb758f109a411a5a897599e60eaecaf8f8fdcd9"
   license "GPL-3.0-or-later"
 
   depends_on "go" => :build
