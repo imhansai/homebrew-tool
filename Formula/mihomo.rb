@@ -11,7 +11,7 @@ class Mihomo < Formula
     build_time = Time.now.utc.strftime("%a %b %d %H:%M:%S UTC %Y")
     ldflags = "-s -w -X 'github.com/metacubex/mihomo/constant.Version=#{version}' -X 'github.com/metacubex/mihomo/constant.BuildTime=#{build_time}' -buildid="
     tags = "with_gvisor"
-    system "go", "build", "-tags", tags, *std_go_args(ldflags: ldflags)
+    system "go", "build", "-tags", tags, *std_go_args(ldflags:)
   end
 
   def post_install
