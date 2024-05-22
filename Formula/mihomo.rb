@@ -1,8 +1,8 @@
 class Mihomo < Formula
   desc "Simple Python Pydantic model for Honkai"
   homepage "https://wiki.metacubex.one/"
-  url "https://github.com/MetaCubeX/mihomo/archive/refs/tags/v1.18.4.tar.gz"
-  sha256 "7eb425f43fcb1ce512891d7cdab8af60a3f0fffc2ca7cf93087717a7c1b4da02"
+  url "https://github.com/MetaCubeX/mihomo/archive/refs/tags/v1.18.5.tar.gz"
+  sha256 "463f54384a144b63e499db44e3383c7a412a1572809053a42810e4c154b51f5e"
   license "MIT"
 
   depends_on "go" => :build
