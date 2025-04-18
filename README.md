@@ -12,5 +12,4 @@ Or `brew tap imhansai/tool` and then `brew install <formula>`.
 
 ## Credits
 
-- [mihomo](https://github.com/MetaCubeX/mihomo)
 - [Homebrew](https://docs.brew.sh/Formula-Cookbook)
