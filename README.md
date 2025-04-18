@@ -1,10 +1,10 @@
-# Imhansai Proxy
+# Imhansai Tool
 
 ## How do I install these formulae?
 
-`brew install imhansai/proxy/<formula>`
+`brew install imhansai/tool/<formula>`
 
-Or `brew tap imhansai/proxy` and then `brew install <formula>`.
+Or `brew tap imhansai/tool` and then `brew install <formula>`.
 
 ## Documentation
 
